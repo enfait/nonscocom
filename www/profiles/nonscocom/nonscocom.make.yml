@@ -1,0 +1,142 @@
+core: 7.x
+api: 2
+
+defaults:
+  projects:
+    subdir: "contrib"
+
+projects:
+
+  admin_menu:
+    version: 3.0-rc5
+
+  admin_views:
+    version: 1.5
+
+  backup_migrate:
+    version: 3.1
+
+  betterlogin:
+    version: 1.4
+
+  calendar:
+    version: 3.5
+
+  ctools:
+    version: 1.9
+
+  ckeditor:
+    download:
+      type: git
+      url: http://git.drupal.org/project/ckeditor.git
+      branch: 7.x-1.x
+      revision: 32f09731dcf1ca6ea78c2d9f10a49e59c2baea7b
+
+  devel:
+    version: 1.5
+    subdir: "devel"
+
+  date:
+    version: 2.8
+
+  email_registration:
+    version: 1.2
+
+  entity:
+    version: 1.6
+
+  entityreference:
+    version: 1.1
+
+  eu-cookie-compliance:
+    version: 1.13
+
+  features:
+    version: 2.6
+
+  field_group:
+    version: 1.4
+
+  file_entity:
+    download:
+      type: git
+      url: http://git.drupal.org/project/file_entity.git
+      branch: 7.x-2.x
+      revision: 656f3872679594b47c65b37487eb90bdf77ffc88
+
+  file_lock:
+    version: 2.0
+
+  genpass:
+    version: 1.0
+
+  jquery_update:
+    version: 2.6
+    patch:
+      - https://www.drupal.org/files/issues/2156881-jquery_update-jquery_migrate_support-13.patch
+
+  l10n_update:
+    version: 1.1
+
+  libraries:
+    version: 2.2
+
+  media:
+    download:
+      type: git
+      url: http://git.drupal.org/project/media.git
+      branch: 7.x-2.x
+      revision: 844baf0432c7d8c9ce27a813b38100d6b94e2f6c
+
+  module_filter:
+    version: 2.0
+
+  pathauto:
+    version: 1.2
+
+  r4032login:
+    version: 1.8
+
+  realname:
+    version: 1.2
+
+  redirect:
+    download:
+      type: git
+      url: http://git.drupal.org/project/redirect.git
+      branch: 7.x-1.x
+      revision: c00142f39ebb25678edfd0833ccff73ea151770a
+
+  shiny:
+    version: 1.7
+
+  strongarm:
+    version: 2.0
+
+  title:
+    download:
+      type: git
+      url: http://git.drupal.org/project/title.git
+      branch: 7.x-1.x
+      revision: d6f2000bbf54686faccc95e7b970d7a00db1dfd8
+
+  transliteration:
+    version: 3.2
+
+  views:
+    version: 3.11
+
+  views_bulk_operations:
+    version: 3.3
+
+  webform:
+    version: "4.10"
+
+  webform_reply_to:
+    version: 2.0
+
+libraries:
+  ckeditor:
+    download:
+      type: file
+      url: "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.7/ckeditor_4.4.7_full.zip"

@@ -1,0 +1,12 @@
+.idea
+docker/local/mysql/data
+www/*
+!www/core.make.yml
+!www/Dockerfile
+!www/profiles
+www/profiles/*
+!www/profiles/nonscocom
+www/profiles/nonscocom/libraries
+www/profiles/nonscocom/modules/contrib
+www/profiles/nonscocom/modules/devel
+www/profiles/nonscocom/themes/contrib
