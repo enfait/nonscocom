@@ -6,6 +6,7 @@ distribution_name = Non-sco Community
 exclusive = TRUE
 
 dependencies[] = admin_menu_toolbar
+dependencies[] = admin_views
 dependencies[] = betterlogin
 dependencies[] = features
 dependencies[] = l10n_update
@@ -13,3 +14,7 @@ dependencies[] = libraries
 dependencies[] = module_filter
 dependencies[] = r4032login
 dependencies[] = transliteration
+
+dependencies[] = nonscocom_editing_feature
+dependencies[] = nonscocom_page_feature
+dependencies[] = nonscocom_user_feature

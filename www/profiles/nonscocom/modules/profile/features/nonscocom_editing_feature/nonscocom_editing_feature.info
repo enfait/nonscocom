@@ -1,0 +1,12 @@
+name = Editing
+description = Text formats & CKeditor profiles
+core = 7.x
+package = Non-sco Community
+dependencies[] = ckeditor
+dependencies[] = features
+dependencies[] = filter
+features[ckeditor_profile][] = Advanced
+features[ckeditor_profile][] = CKEditor Global Profile
+features[features_api][] = api:2
+features[filter][] = filtered_html
+project path = profiles/nonscocom/modules/profile/features

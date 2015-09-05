@@ -25,7 +25,7 @@ function nonscocom_install() {
   variable_set('file_default_scheme', 'private');
   variable_set('file_entity_file_upload_wizard_skip_scheme', TRUE);
 
-  variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
+  variable_set('user_register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL);
 
   variable_set('error_level', 0);
 

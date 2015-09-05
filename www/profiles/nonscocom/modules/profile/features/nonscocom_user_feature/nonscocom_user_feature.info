@@ -1,0 +1,13 @@
+name = Users
+description = User fields & settings
+core = 7.x
+package = Non-sco Community
+dependencies[] = email_registration
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_first_name
+features[field_base][] = field_last_name
+features[field_instance][] = user-user-field_first_name
+features[field_instance][] = user-user-field_last_name
+project path = profiles/nonscocom/modules/profile/features
